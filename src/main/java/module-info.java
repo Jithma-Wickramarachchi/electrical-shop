@@ -5,4 +5,6 @@ module edu.icet.electrical_shop {
 
     opens edu.icet.electrical_shop to javafx.fxml;
     exports edu.icet.electrical_shop;
+    exports edu.icet.electrical_shop.controller;
+    opens edu.icet.electrical_shop.controller to javafx.fxml;
 }
