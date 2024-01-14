@@ -9,7 +9,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class AddItemsFormController {
-    public BorderPane itemsPane;
+    public BorderPane addItemsPane;
 
     public void logOutBtnOnAction(ActionEvent actionEvent) {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "Are you sure want to log out?", ButtonType.YES, ButtonType.NO);
@@ -18,7 +18,7 @@ public class AddItemsFormController {
 
         if (alert.getResult() == ButtonType.YES) {
             try {
-                Stage stage = (Stage) itemsPane.getScene().getWindow();
+                Stage stage = (Stage) addItemsPane.getScene().getWindow();
                 stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/LoginForm.fxml"))));
                 stage.setTitle("User Dashboard");
                 stage.show();

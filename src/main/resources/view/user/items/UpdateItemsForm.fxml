@@ -16,7 +16,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="addItemsPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.electrical_shop.controller.AddItemsFormController">
+<BorderPane fx:id="updateItemsPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.electrical_shop.controller.UpdateItemsFormController">
    <center>
       <GridPane alignment="CENTER" style="-fx-background-color: #3841eb#3841eb;" BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -163,7 +163,7 @@
                       <RowConstraints maxHeight="283.0" minHeight="10.0" prefHeight="222.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Label alignment="CENTER" prefHeight="65.0" prefWidth="328.0" text="Add Item">
+                        <Label alignment="CENTER" prefHeight="65.0" prefWidth="328.0" text="Update Item">
                            <font>
                               <Font size="20.0" />
                            </font>

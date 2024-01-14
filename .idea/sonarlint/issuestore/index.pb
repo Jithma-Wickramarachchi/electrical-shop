@@ -23,3 +23,5 @@ Jsrc/main/java/edu/icet/electrical_shop/controller/ItemsFormController.java,a\d
 Msrc/main/java/edu/icet/electrical_shop/controller/AddItemsFormController.java,6\2\62ca66c722ede5e2adba098f1d6c61eec6527abf
 ‚
 Rsrc/main/java/edu/icet/electrical_shop/controller/UserDashboardFormController.java,e\9\e9b9f5ab1c2d3dc1516df3950fca6823a8a24d7f
+€
+Psrc/main/java/edu/icet/electrical_shop/controller/UpdateItemsFormController.java,3\0\301b803cfbbefb5a648218edbbfae1b37477d12c
