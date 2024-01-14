@@ -25,7 +25,7 @@ public class LoginFormController {
     public void userBtnOnAction(ActionEvent actionEvent) {
         try {
             Stage stage = (Stage) loginPane.getScene().getWindow();
-            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/AddItemsForm.fxml"))));
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/user/UserDashboardForm.fxml"))));
             stage.setTitle("User Dashboard");
             stage.show();
         }catch (Exception e) {

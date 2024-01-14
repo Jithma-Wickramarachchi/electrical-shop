@@ -4,30 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edc8821f-d46f-4c96-9b0e-40131639708c" name="Changes" comment="Login form sketch UI Done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/AdminDashBoardFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/ItemsFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/city.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/AdminDashBoardForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ItemsForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/LoginForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19a0b06e629cc8acbce31456794c04fce8d2fff3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/691e0788541f2f054c65db83d3a2d3d5e9fb5ec4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/691e0788541f2f054c65db83d3a2d3d5e9fb5ec4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93ba273d28163c1cb1b190fa45f256adeb7421da" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c656b5ac172cdbe144d4782b20e4156913fefaec" beforeDir="false" />
+    <list default="true" id="edc8821f-d46f-4c96-9b0e-40131639708c" name="Changes" comment="Add items ui done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/UserDashboardFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/user/UserDashboardForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/9/19a0b06e629cc8acbce31456794c04fce8d2fff3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/3/93ba273d28163c1cb1b190fa45f256adeb7421da" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/6/c656b5ac172cdbe144d4782b20e4156913fefaec" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/AppInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/LoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/LoginFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/icet/electrical_shop/images/responsive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/responsive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/icet/electrical_shop/view/LoginForm.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/AddItemsForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/user/items/AddItemsForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +73,11 @@
       <recent name="C:\Users\HP\IdeaProjects\electrical-shop\src\main\resources\view" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\electrical-shop\src\main\resources\view\user\items" />
+      <recent name="C:\Users\HP\IdeaProjects\electrical-shop\src\main\resources\view\user" />
       <recent name="C:\Users\HP\IdeaProjects\electrical-shop\src\main\java\edu\icet\electrical_shop\controller" />
       <recent name="C:\Users\HP\IdeaProjects\electrical-shop\src\main\resources\images" />
       <recent name="C:\Users\HP\IdeaProjects\electrical-shop\src\main\resources" />
-      <recent name="C:\Users\HP\IdeaProjects\electrical-shop\src\main\resources\" />
-      <recent name="C:\Users\HP\IdeaProjects\electrical-shop\src\main\resources\edu\icet\electrical_shop\images" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="controller" />
@@ -161,6 +145,7 @@
       <workItem from="1704897325069" duration="1000" />
       <workItem from="1704898976596" duration="27401000" />
       <workItem from="1705042515593" duration="18905000" />
+      <workItem from="1705220486292" duration="2533000" />
     </task>
     <task id="LOCAL-00001" summary="Login form sketch UI Done">
       <option name="closed" value="true" />
@@ -170,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704933800450</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add items ui done">
+      <option name="closed" value="true" />
+      <created>1705221482810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705221482810</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +171,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login form sketch UI Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login form sketch UI Done" />
+    <MESSAGE value="Add items ui done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add items ui done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

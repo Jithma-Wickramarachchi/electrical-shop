@@ -104,7 +104,7 @@
                               </GridPane>
                               <ImageView fitHeight="135.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
                                  <image>
-                                    <Image url="@../images/user.png" />
+                                    <Image url="@../../../images/user.png" />
                                  </image>
                               </ImageView>
                            </children>
