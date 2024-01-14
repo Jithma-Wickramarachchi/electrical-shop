@@ -40,6 +40,14 @@ public class UserDashboardFormController {
     }
 
     public void customerBtnOnAction(ActionEvent actionEvent) {
+        try {
+            Stage stage = (Stage) userDashboardPane.getScene().getWindow();
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/user/customers/AddCustomersForm.fxml"))));
+            stage.setTitle("User Dashboard");
+            stage.show();
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void ordersBtnOnAction(ActionEvent actionEvent) {

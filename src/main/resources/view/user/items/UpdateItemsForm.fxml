@@ -109,7 +109,7 @@
                               </ImageView>
                            </children>
                         </GridPane>
-                        <JFXButton prefHeight="60.0" prefWidth="332.0" style="-fx-background-color: #6799f0 #6799f0 #6799f0 #6799f0; -fx-text-fill: white; -fx-font-size: 26;" text="Items" GridPane.rowIndex="1" />
+                        <JFXButton prefHeight="60.0" prefWidth="332.0" style="-fx-background-color: #4871f7#4871f7 #4871f7#4871f7; -fx-text-fill: white; -fx-font-size: 26;" text="Items" GridPane.rowIndex="1" />
                         <JFXButton prefHeight="60.0" prefWidth="332.0" style="-fx-background-color: #6799f0 #6799f0; -fx-text-fill: white; -fx-font-size: 26;" text="Customers" GridPane.rowIndex="2" />
                         <JFXButton prefHeight="60.0" prefWidth="332.0" style="-fx-background-color: #6799f0 #6799f0 #6799f0 #6799f0; -fx-text-fill: white; -fx-font-size: 26;" text="Orders" GridPane.rowIndex="3" />
                         <JFXButton fx:id="logOutBtn" onAction="#logOutBtnOnAction" prefHeight="60.0" prefWidth="332.0" style="-fx-background-color: #6799f0 #6799f0 #6799f0 #6799f0; -fx-text-fill: white; -fx-font-size: 26;" text="Log Out" GridPane.rowIndex="6" />

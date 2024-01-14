@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc8821f-d46f-4c96-9b0e-40131639708c" name="Changes" comment="user dashboard ui done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/UpdateItemsFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/user/items/UpdateItemsForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/AddCustomersFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/691e0788541f2f054c65db83d3a2d3d5e9fb5ec4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/691e0788541f2f054c65db83d3a2d3d5e9fb5ec4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/AddItemsFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/AddItemsFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/LoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/LoginFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/UserDashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/electrical_shop/controller/UserDashboardFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/user/items/AddItemsForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/user/items/AddItemsForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "jithma",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/HP/IdeaProjects/electrical-shop/src/main/resources/view/user/items",
     "list.type.of.created.stylesheet": "CSS",

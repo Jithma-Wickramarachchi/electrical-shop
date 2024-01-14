@@ -12,14 +12,14 @@ public class LoginFormController {
     public BorderPane loginPane;
 
     public void adminBtnOnAction(ActionEvent actionEvent) {
-        try {
-            Stage stage = (Stage) loginPane.getScene().getWindow();
-            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/AdminDashBoardForm.fxml"))));
-            stage.setTitle("Admin Dashboard");
-            stage.show();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
+//        try {
+//            Stage stage = (Stage) loginPane.getScene().getWindow();
+//            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/AdminDashBoardForm.fxml"))));
+//            stage.setTitle("Admin Dashboard");
+//            stage.show();
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
     }
 
     public void userBtnOnAction(ActionEvent actionEvent) {

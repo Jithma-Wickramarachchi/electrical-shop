@@ -8,8 +8,9 @@ import javafx.scene.control.ButtonType;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
-public class AddItemsFormController {
-    public BorderPane addItemsPane;
+public class AddCustomersFormController {
+
+    public BorderPane addCustomersPane;
 
     public void logOutBtnOnAction(ActionEvent actionEvent) {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "Are you sure want to log out?", ButtonType.YES, ButtonType.NO);
@@ -18,7 +19,7 @@ public class AddItemsFormController {
 
         if (alert.getResult() == ButtonType.YES) {
             try {
-                Stage stage = (Stage) addItemsPane.getScene().getWindow();
+                Stage stage = (Stage) addCustomersPane.getScene().getWindow();
                 stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/LoginForm.fxml"))));
                 stage.setTitle("User Dashboard");
                 stage.show();
@@ -29,11 +30,19 @@ public class AddItemsFormController {
     }
 
     public void itemsBtnOnAction(ActionEvent actionEvent) {
+        try {
+            Stage stage = (Stage) addCustomersPane.getScene().getWindow();
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/user/items/AddItemsForm.fxml"))));
+            stage.setTitle("User Dashboard");
+            stage.show();
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void custBtnOnAction(ActionEvent actionEvent) {
         try {
-            Stage stage = (Stage) addItemsPane.getScene().getWindow();
+            Stage stage = (Stage) addCustomersPane.getScene().getWindow();
             stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/user/customers/AddCustomersForm.fxml"))));
             stage.setTitle("User Dashboard");
             stage.show();
@@ -43,13 +52,5 @@ public class AddItemsFormController {
     }
 
     public void ordersBtnOnAction(ActionEvent actionEvent) {
-        try {
-            Stage stage = (Stage) addItemsPane.getScene().getWindow();
-            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/user/UserDashboardForm.fxml"))));
-            stage.setTitle("User Dashboard");
-            stage.show();
-        }catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 }
