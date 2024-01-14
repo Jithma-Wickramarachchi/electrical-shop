@@ -1,23 +1,9 @@
 
-r
-java:S1104"UMake loginPane a static final constant or non-public and provide accessors if needed.(˜ì¢Ç8ÇÄí®Ï1
-s
-java:S1104"QMake btnId a static final constant or non-public and provide accessors if needed.(ÕŒñ¸úÿÿÿÿ8ÈÄí®Ï1
-u
-java:S1104"SMake imageId a static final constant or non-public and provide accessors if needed.(ÂŞŞÿúÿÿÿÿ8ÈÄí®Ï1
-s
-java:S1104"VMake loginLabel a static final constant or non-public and provide accessors if needed.(ğàÓ”8ë§­¯Ï1
-p
-java:S1104"SMake userBtn a static final constant or non-public and provide accessors if needed.(ÀŞ˜‘8ğÃÚ¯Ï1
-w
-java:S1104"UMake adminBtin a static final constant or non-public and provide accessors if needed.(±ÎÃÈúÿÿÿÿ8Ø…Û¯Ï1
 v
-java:S1104"TMake loginBtn a static final constant or non-public and provide accessors if needed.(Å ÷•øÿÿÿÿ8ïûÜ¯Ï1
-y
-java:S1104"\Make passwordTxtField a static final constant or non-public and provide accessors if needed.(Ï¼…é8‹ İ¯Ï1
-{
-java:S1104"YMake emailTxtField a static final constant or non-public and provide accessors if needed.(İ°ÖÊşÿÿÿÿ8ë½İ¯Ï1
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­¿Ïí8™Ü¯Ï1
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹•å8£Ú¯Ï1
+java:S1104"TMake adminBtn a static final constant or non-public and provide accessors if needed.(¦û¢†úÿÿÿÿ8¢Ï¶ôÏ1
+r
+java:S1104"UMake loginPane a static final constant or non-public and provide accessors if needed.(‡¨ñ¿8£Ï¶ôÏ1
+O
+java:S1172"2Remove this unused method parameter "actionEvent".(­¿Ïí8²Ï¶ôÏ1
+N
+java:S1172"2Remove this unused method parameter "actionEvent".(‹•å8½Ï¶ôÏ1
